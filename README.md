@@ -1,24 +1,8 @@
 # README
+* Ruby version: 2.6.3, Rails version: 5.2.3
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Setup
+1. Clone the repository
+2. `cd` into the project directory
+3. Run the db migrations: `rails db:migrate RAILS_ENV=development`
+4. Run the rails server: `rails s` or `rails server`
